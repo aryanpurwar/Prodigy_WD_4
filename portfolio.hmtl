@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Personal Portfolio Website</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <span class="name">
+              <h1>Aryan Purwar</h1><hr>
+              Email : apurwar362@gmail.com | Ph : 9140908009<br><br>
+               <a target="_blank" href="https://github.com/dashboard"><img id="logo" src="th.jpeg " alt=""></a>
+               <a target="_blank" href="https://www.linkedin.com/in/aryan-purwar-847539259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img id="logo" src="linkedin-color-icon-1024x1024-mxgqq1wb.png" alt=""></a>
+       </span> 
+       <br><br>
+       <span class="others">
+              <button onclick="me()">About Me</button>
+              <button onclick="edu()">Education</button>
+              <button onclick="skills()">Skills</button>
+              <button onclick="exp()">Experinces</button>
+              <button><a target="_blank" href="feedback.html">Feedback</a></button>
+       </span>
+       <br><br>
+       <hr>
+       <span class="main">
+              <h3>Welcome to my personal portfolio</h3>
+              <img class="myimg" src="aryan.jpeg" alt="">
+       </span>
+       <br>
+       <p class="info">
+              <h3>About Me</h3> <br>Hello there! I am pursuing Bachelors of Technology from NMIMS Shirpur. I am currently at second year having specialization in Compter Science Engineering. I'm a passionate technical enthusiast with a deep love for coding. My journey into the world of technology began with a curiosity that soon turned into a full-blown fascination. From tinkering with lines of code to crafting intricate algorithms, I find joy in the process of building and creating solutions to various challenges.</p>
+       <br><hr>
+       <p class="Education">
+              <h3>Education</h3>
+              <table>
+                     <tr>
+                            <th>Degree</th>
+                            <th>Institute</th>
+                            <th>Board</th>
+                            <th>CGPA/Percentage</th>
+                            <th>Year</th>
+                     </tr>
+                     <tr>
+                            <td>BTech</td>
+                            <td>NMIMS</td>
+                            <td>University</td>
+                            <td>3.32*</td>
+                            <td>Currently pursuing</td>
+                     </tr>
+                     <tr>
+                            <td>XII</td>
+                            <td>Pt.DDUSDV</td>
+                            <td>CBSE</td>
+                            <td>80%</td>
+                            <td>2018</td>
+                     </tr>
+                     <tr>
+                            <td>X</td>
+                            <td>MHS</td>
+                            <td>ICSE</td>
+                            <td>85%</td>
+                            <td>2016</td>
+                     </tr>
+
+              </table><br><hr>
+       </p>
+       <p class="Skills">
+              <h3>Skills</h3>
+              <span class="cpp">C++</span><br><br>
+              <span class="html">HTML</span><br><br>
+              <span class="css">CSS</span><br><br>
+              <span class="java">Java</span><br><br>
+              <span class="javascript">JavaScript</span><br><br>
+              <span class="problemSolving">Problem Solving</span><br><br>
+              <span class="dsa">Data Structures and Algorithms</span><br><br>
+              
+       </p>
+       <hr>
+       <p class="experinces">
+              <h3>Experinces</h3>
+              <span class="college">1. I am a in a Technical team of our well known club App Development Club in the college.</span><br>
+              <span class="codsoft">2. I have completed my internship in CodSoft as an C++ developer.</span><br>
+              <span class="prodigy">
+                     3. I am currently doing my remote internship in Prodigy Infotech as an web developer.
+              </span>
+       </p>
+       <hr>
+       <footer>
+
+       </footer>
+</body>
+<script src="script.js"></script>
+</html>
